@@ -4,12 +4,12 @@ information:
   author: "chuck burnell<cburnell@gmail.com>"
 
 palette:
-  fg: "#DdDEEe"
+  fg: "#cccccc"
   bg: "#303030"
   lred: "#FF7898"
   mred: "#FF5040"
   dred: "#873333"
-  lgold: "#F8C001"
+  lgold: "#FFC000"
   mgold: "#CE9812"
   dgold: "#D45F10"
   yellow: "#F0F000"
@@ -17,9 +17,9 @@ palette:
   hint_purple: "#CF58CF"
   bggold: "#505000"
   bgred: "#902020"
-  lblue: "#88ccff"
-  mblue: "#8899FF"
-  dblue: "#05369E"
+  lblue: "#99ccff"
+  mblue: "#77AAFF"
+  dblue: "#6587FF"
   lteal: "#16D8D0"
   mteal: "#0198A8"
   dt: "#113D4E"
@@ -29,12 +29,12 @@ palette:
   unkbg: "#0000ff"
   gray: "#CCCCCC"
   comment_gray: "#99AABB"
-  dark_gray: "#455667"
-  unk: "#00FF00" 
+  dark_gray: "#444444"
+  unk: "#00FF00"
   line_grey: "#5C6370"
   cursor_grey: "#2C323C"
   special_grey: "#3B4048"
-  
+
   #unk_command: "#f4af37"
   #mb: "#3fafff"
   #lb: "#4fcfff"
@@ -43,22 +43,27 @@ palette:
 highlights:
 
   # Custom pallet stuff
-  Variable: "mgold"
-
+  Variable: "gray"
+  LcarsLeft: "dblue"
+  LcarsNone: "dblue"
+  LcarsVis: "mblue"
+  LcarsRight: "lblue"
+  LcarsSelected: "lblue"
+  BufferLineLcarsLeftToLeft: "dblue"
   # Editor
   ColorColumn: "- black"
   Cursor: "bg unk"
   CursorLine: "- unk"
   Error: "unk unkbg"
   LineNr: "gray"
-  MatchParen: "lblue dark_gray"
+  MatchParen: "lblue"
   NonText: "dark_gray"
   Normal: "gray bg"
   Pmenu: "lblue dark_gray"
   PmenuSbar: "lgold dark_gray"
   PmenuSel: "lgold dark_gray"
   PmenuThumb: "lblue dark_gray"
-  SpecialKey: "dark_gray"
+  SpecialKey: "mteal"
   Spellbluead: "unk bg u"
   SpellCap: "unk bg u"
   SpellLocal: "unk bg u"
@@ -81,7 +86,7 @@ highlights:
   SignColumn: "gray bg"
 
   # Navigation
-  Directory: "unk"
+  Directory: "mblue"
 
   # Prompt/Status
   EndOfBuffer: "unk"
@@ -90,7 +95,7 @@ highlights:
   MoreMsg: "unk"
   Question: "unk"
   StatusLine: "gray dark_gray"
-  StatusLineNC: "gray dark_gray"
+  StatusLineNC: "dark_gray dark_gray"
   StatusLineTerm: "gray dark_gray"
   StatusLineTermNC: "gray dark_gray"
   WarningMsg: "fg bggold ub"
@@ -101,9 +106,10 @@ highlights:
   Search: "fg bggold"
 
   # Tabs
-  TabLine: "gray bg"
-  TabLineFill: "gray bg"
-  TabLineSel: "gray dark_gray"
+  TabLine: "dark_gray mblue"
+  TabLineFill: "dark_gray mblue"
+  TabLineSel: "dark_gray mblue"
+
 
   # Window
   Title: "gray"
@@ -114,7 +120,7 @@ highlights:
   Character: "lteal"
   Comment: "comment_gray - i"
   Conditional: "mgold"
-  Constant: "unk"
+  Constant: "lgold"
   Define: "mgold"
   Delimeter: "unk"
   Exception: "mgold"
@@ -125,7 +131,7 @@ highlights:
   Keyword: "mgold"
   Label: "mgold"
   Number: "lred"
-  Operator: "lgold"
+  Operator: "gray"
   PreProc: "mgold"
   Repeat: "mgold"
   Special: "lteal"
@@ -136,7 +142,7 @@ highlights:
   String: "lteal"
   Structure: "lgold"
   Tag: "unk"
-  Todo: "bggold"
+  Todo: "hint_purple"
   Type: "mgold"
   Typedef: "mgold"
   Macro: "mgold"
@@ -161,33 +167,33 @@ highlights:
   # -- Start Treesitter --
   # Misc
   TSError: "unk - u"
-  TSPunctDelimiter: "unk"
-  TSPunctBracket: "unk"
-  TSPunctSpecial: "unk"
+  TSPunctDelimiter: "fg"
+  TSPunctBracket: "fg"
+  TSPunctSpecial: "fg"
   # Constants
-  TSConstant: "unk"
-  TSConstBuiltin: "unk"
-  TSConstMacro: "unk"
+  TSConstant: "Constant"
+  TSConstBuiltin: "Constant"
+  TSConstMacro: "Constant"
   TSStringRegex: "unk"
-  TSString: "unk"
+  TSString: "String"
   TSStringEscape: "unk"
   TSCharacter: "unk"
-  TSNumber: "unk"
-  TSBoolean: "unk"
-  TSFloat: "unk"
+  TSNumber: "Number"
+  TSBoolean: "Boolean"
+  TSFloat: "Number"
   TSAnnotation: "unk"
   TSAttribute: "unk"
   TSNamespace: "unk"
   # Functions
-  TSFuncBuiltin: "bggold"
+  TSFuncBuiltin: "lblue"
   TSFunction: "Function"
   TSFuncMacro: "unk"
-  TSParameter: "unk"
-  TSParameterReference: "unk"
+  TSParameter: "gray"
+  TSParameterReference: "gray"
   TSMethod: "mblue"
-  TSField: "unk"
-  TSProperty: "unk"
-  TSConstructor: "unk"
+  TSField: "mblue"
+  TSProperty: "mblue"
+  TSConstructor: "lblue"
   # Keywords
   TSConditional: "Conditional"
   TSRepeat: "Keyword"
@@ -203,20 +209,20 @@ highlights:
   TSInclude: "Include"
   # Variable
   TSVariable: "Variable"
-  TSVariableBuiltin: "unk"
+  TSVariableBuiltin: "lblue"
   # Text
-  TSText: "#FFFF00"
-  TSStrong: "#FFFF00"
-  TSEmphasis: "#FFFF00"
-  TSUnderline: "#FFFF00"
-  TSTitle: "#FFFF00"
-  TSLiteral: "#FFFF00"
-  TSURI: "#FFFF00"
+  TSText: "String"
+  TSStrong: "comment_gray"
+  TSEmphasis: "comment_gray"
+  TSUnderline: "comment_gray"
+  TSTitle: "comment_gray"
+  TSLiteral: "comment_gray"
+  TSURI: "comment_gray"
   # Tags
   TSTag: "unk"
   TSTagDelimiter: "line_grey"
   # -- END Treesitter --
-  
+
   # -- START Semshi --
   #semshiLocal: "#ffbafa"
   #semshiGlobal: "unk_command"
@@ -252,10 +258,10 @@ highlights:
   SignifySignDelete: "unk"
 
   # -- Sneak
-  Sneak: "bg bggold u" 
+  Sneak: "bg bggold u"
   SneakScope: "unk bg"
-  SneakLabel: "bg bggold u" 
-  SneakLabelMask: "bggold" 
+  SneakLabel: "bg bggold u"
+  SneakLabelMask: "bggold"
 
   # -- START Startify --
   StartifyNumber: "unk"
@@ -280,18 +286,20 @@ highlights:
   GitGutterChange: "bggold"
   GitGutterChangeDelete: "unk"
   GitGutterDelete: "unk"
-  
+
   # Fugitive
   gitcommitDiscardedFile: "unk"
   gitcommitSelectedFile: "unk"
   gitcommitUntrackedFile: "unk"
 
   # Nvim LSP
-  LSPDiagnosticsWarning: "lred - ub"
+  LspDiagnosticsWarning: "orange"
   LspDiagnosticsDefaultError: "mred"
   LspDiagnosticsInformation: "unk"
+  LspDiagnosticsDefaultHint: "hint_purple"
   LspDiagnosticsHint: "hint_purple"
-  LspDiagnosticsUnderlineWarning: "lred - ub"
+  LspDiagnosticsError: "mred"
+  LspDiagnosticsUnderlineWarning: "orange"
   LspDiagnosticsUnderlineError: "mred"
   LspDiagnosticsUnderlineInformation: "unk"
   LspDiagnosticsUnderlineHint: "hint_purple - ub"

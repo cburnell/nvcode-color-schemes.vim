@@ -6,6 +6,9 @@ information:
 palette:
   fg: "#cccccc"
   bg: "#303030"
+  bg_red: "#683030"
+  bg_green: "#306830"
+  bg_blue: "#303068"
   lred: "#FF7898"
   mred: "#FF5040"
   dred: "#873333"
@@ -50,12 +53,13 @@ highlights:
   LcarsRight: "lblue"
   LcarsSelected: "lblue"
   BufferLineLcarsLeftToLeft: "dblue"
+
   # Editor
   ColorColumn: "- dark_gray"
   Cursor: "bg unk"
   CursorLine: "- dark_gray"
   CursorColumn: "- dark_gray"
-  Error: "unk unkbg"
+  Error: "mred"
   LineNr: "gray"
   MatchParen: "lblue"
   NonText: "dark_gray"
@@ -293,14 +297,15 @@ highlights:
   gitcommitUntrackedFile: "unk"
 
   # Nvim LSP
-  LspDiagnosticsWarning: "orange"
-  LspDiagnosticsDefaultError: "mred"
+  LspDiagnosticsUnderlineInformation: "unk"
   LspDiagnosticsInformation: "unk"
-  LspDiagnosticsDefaultHint: "hint_purple"
+  LspDiagnosticsUnderlineHint: "hint_purple - ub"
   LspDiagnosticsHint: "hint_purple"
-  LspDiagnosticsError: "mred"
+  LspDiagnosticsDefaultHint: "hint_purple"
+  LspDiagnosticsWarning: "orange"
+  LspDiagnosticsDefaultWarning: "orange"
   LspDiagnosticsUnderlineWarning: "orange"
   LspDiagnosticsUnderlineError: "mred"
-  LspDiagnosticsUnderlineInformation: "unk"
-  LspDiagnosticsUnderlineHint: "hint_purple - ub"
+  LspDiagnosticsDefaultError: "mred"
+  LspDiagnosticsError: "mred"
 

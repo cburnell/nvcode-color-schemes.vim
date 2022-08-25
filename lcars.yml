@@ -38,7 +38,7 @@ palette:
   cursor_grey: "#2C323C"
   special_grey: "#3B4048"
 
-  #unk_command: "#f4af37"
+  namespace: "#f4af37"
   #mb: "#3fafff"
   #lb: "#4fcfff"
   #unk_green: "#00ff5c"
@@ -187,11 +187,11 @@ highlights:
   TSFloat: "Number"
   TSAnnotation: "unk"
   TSAttribute: "unk"
-  TSNamespace: "unk"
+  TSNamespace: "namespace"
   # Functions
   TSFuncBuiltin: "lblue"
   TSFunction: "Function"
-  TSFuncMacro: "unk"
+  TSFuncMacro: "Function"
   TSParameter: "gray"
   TSParameterReference: "gray"
   TSMethod: "mblue"
@@ -297,8 +297,8 @@ highlights:
   gitcommitUntrackedFile: "unk"
 
   # Nvim LSP
-  LspDiagnosticsUnderlineInformation: "unk"
-  LspDiagnosticsInformation: "unk"
+  # LspDiagnosticsUnderlineInformation: "lblue"
+  LspDiagnosticsInformation: "lblue"
   LspDiagnosticsUnderlineHint: "hint_purple - ub"
   LspDiagnosticsHint: "hint_purple"
   LspDiagnosticsDefaultHint: "hint_purple"

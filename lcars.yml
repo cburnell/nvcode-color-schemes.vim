@@ -185,7 +185,7 @@ highlights:
   TSNumber: "Number"
   TSBoolean: "Boolean"
   TSFloat: "Number"
-  TSAnnotation: "unk"
+  TSAnnotation: "lblue"
   TSAttribute: "unk"
   TSNamespace: "namespace"
   # Functions
@@ -299,9 +299,9 @@ highlights:
   # Nvim LSP
   # LspDiagnosticsUnderlineInformation: "lblue"
   LspDiagnosticsInformation: "lblue"
-  LspDiagnosticsUnderlineHint: "hint_purple - ub"
-  LspDiagnosticsHint: "hint_purple"
-  LspDiagnosticsDefaultHint: "hint_purple"
+  LspDiagnosticsUnderlineHint: "lteal - ub"
+  LspDiagnosticsHint: "lteal"
+  LspDiagnosticsDefaultHint: "lteal"
   LspDiagnosticsWarning: "orange"
   LspDiagnosticsDefaultWarning: "orange"
   LspDiagnosticsUnderlineWarning: "orange"

@@ -121,7 +121,7 @@ hi TSCharacter guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=N
 hi TSNumber guifg=#ff7898 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSBoolean guifg=#ce9812 ctermfg=172 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFloat guifg=#ff7898 ctermfg=210 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi TSAnnotation guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi TSAnnotation guifg=#99ccff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSAttribute guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSNamespace guifg=#f4af37 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi TSFuncBuiltin guifg=#99ccff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -193,9 +193,9 @@ hi gitcommitDiscardedFile guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=N
 hi gitcommitSelectedFile guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitUntrackedFile guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsInformation guifg=#99ccff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsUnderlineHint guifg=#cf58cf ctermfg=170 guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
-hi LspDiagnosticsHint guifg=#cf58cf ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultHint guifg=#cf58cf ctermfg=170 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsUnderlineHint guifg=#16d8d0 ctermfg=44 guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
+hi LspDiagnosticsHint guifg=#16d8d0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsDefaultHint guifg=#16d8d0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsWarning guifg=#ffad00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsDefaultWarning guifg=#ffad00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineWarning guifg=#ffad00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

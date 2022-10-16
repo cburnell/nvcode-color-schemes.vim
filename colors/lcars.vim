@@ -192,10 +192,10 @@ hi GitGutterDelete guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cte
 hi gitcommitDiscardedFile guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitSelectedFile guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitUntrackedFile guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsInformation guifg=#77aaff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsUnderlineHint guifg=#99ccff ctermfg=117 guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
-hi LspDiagnosticsHint guifg=#99ccff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultHint guifg=#99ccff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsInformation guifg=#99ccff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsUnderlineHint guifg=#77aaff ctermfg=111 guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
+hi LspDiagnosticsHint guifg=#77aaff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsDefaultHint guifg=#77aaff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsWarning guifg=#ffad00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsDefaultWarning guifg=#ffad00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineWarning guifg=#ffad00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -204,5 +204,5 @@ hi LspDiagnosticsDefaultError guifg=#ff5040 ctermfg=203 guibg=NONE ctermbg=NONE 
 hi LspDiagnosticsError guifg=#ff5040 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeLspDiagnosticsError guifg=#ff5040 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi NvimTreeLspDiagnosticsWarning guifg=#ffad00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeLspDiagnosticsInformation guifg=#77aaff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi NvimTreeLspDiagnosticsHint guifg=#99ccff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeLspDiagnosticsInformation guifg=#99ccff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi NvimTreeLspDiagnosticsHint guifg=#77aaff ctermfg=111 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

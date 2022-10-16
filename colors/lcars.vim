@@ -193,9 +193,9 @@ hi gitcommitDiscardedFile guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=N
 hi gitcommitSelectedFile guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi gitcommitUntrackedFile guifg=#00ff00 ctermfg=46 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsInformation guifg=#99ccff ctermfg=117 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsUnderlineHint guifg=#16d8d0 ctermfg=44 guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
-hi LspDiagnosticsHint guifg=#16d8d0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi LspDiagnosticsDefaultHint guifg=#16d8d0 ctermfg=44 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsUnderlineHint guifg=#4fc1ff ctermfg=75 guibg=NONE ctermbg=NONE gui=underline,bold cterm=underline,bold
+hi LspDiagnosticsHint guifg=#4fc1ff ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspDiagnosticsDefaultHint guifg=#4fc1ff ctermfg=75 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsWarning guifg=#ffad00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsDefaultWarning guifg=#ffad00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi LspDiagnosticsUnderlineWarning guifg=#ffad00 ctermfg=214 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE

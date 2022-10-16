@@ -22,6 +22,7 @@ palette:
   bgred: "#902020"
   lblue: "#99ccff"
   mblue: "#77AAFF"
+  vivid_blue: '#4FC1FF'
   dblue: "#6587FF"
   lteal: "#16D8D0"
   mteal: "#0198A8"
@@ -299,9 +300,9 @@ highlights:
   # Nvim LSP
   # LspDiagnosticsUnderlineInformation: "lblue"
   LspDiagnosticsInformation: "lblue"
-  LspDiagnosticsUnderlineHint: "lteal - ub"
-  LspDiagnosticsHint: "lteal"
-  LspDiagnosticsDefaultHint: "lteal"
+  LspDiagnosticsUnderlineHint: "vivid_blue - ub"
+  LspDiagnosticsHint: "vivid_blue"
+  LspDiagnosticsDefaultHint: "vivid_blue"
   LspDiagnosticsWarning: "orange"
   LspDiagnosticsDefaultWarning: "orange"
   LspDiagnosticsUnderlineWarning: "orange"

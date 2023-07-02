@@ -112,7 +112,7 @@ highlights:
 
   # Tabs
   TabLine: "dark_gray mblue"
-  TabLineFill: "dark_gray mblue"
+  TabLineFill: "dark_gray dark_gray"
   TabLineSel: "dark_gray mblue"
 
 

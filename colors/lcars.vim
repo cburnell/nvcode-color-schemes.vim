@@ -32,8 +32,8 @@ hi Spellbluead guifg=#00ff00 ctermfg=46 guibg=#303030 ctermbg=236 gui=underline 
 hi SpellCap guifg=#00ff00 ctermfg=46 guibg=#303030 ctermbg=236 gui=underline cterm=underline
 hi SpellLocal guifg=#00ff00 ctermfg=46 guibg=#303030 ctermbg=236 gui=underline cterm=underline
 hi SpellRare guifg=#00ff00 ctermfg=46 guibg=#303030 ctermbg=236 gui=underline cterm=underline
-hi Visual guifg=NONE ctermfg=NONE guibg=#505050 ctermbg=239 gui=NONE cterm=NONE
-hi VisualNOS guifg=NONE ctermfg=NONE guibg=#505050 ctermbg=239 gui=NONE cterm=NONE
+hi Visual guifg=NONE ctermfg=NONE guibg=#b5c5cc ctermbg=251 gui=NONE cterm=NONE
+hi VisualNOS guifg=NONE ctermfg=NONE guibg=#b5c5cc ctermbg=251 gui=NONE cterm=NONE
 hi QuickFixLine guifg=#cccccc ctermfg=252 guibg=#505000 ctermbg=58 gui=NONE cterm=NONE
 hi Terminal guifg=#00ff00 ctermfg=46 guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 hi healthError guifg=#cccccc ctermfg=252 guibg=#303030 ctermbg=236 gui=NONE cterm=NONE

@@ -75,8 +75,8 @@ highlights:
   SpellCap: "unk bg u"
   SpellLocal: "unk bg u"
   SpellRare: "unk bg u"
-  Visual: "bg medium_gray"
-  VisualNOS: "bg medium_gray"
+  Visual: "- medium_gray"
+  VisualNOS: "- medium_gray"
   QuickFixLine: "fg bggold"
   Terminal: "unk bg"
 

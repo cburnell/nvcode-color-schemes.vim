@@ -188,16 +188,16 @@ highlights:
   TSVariable: "white"
   TSVariableBuiltin: "white"
   # Text
-  TSText: "#FFFF00"
-  TSStrong: "#FFFF00"
-  TSEmphasis: "#FFFF00"
-  TSUnderline: "#FFFF00"
-  TSTitle: "#FFFF00"
+  TSText: "fg"
+  TSStrong: "yellow"
+  TSEmphasis: "purple"
+  TSUnderline: "red"
+  TSTitle: "fg"
   TSLiteral: "grey"
   TSURI: "- - u"
   # Tags
   TSTag: "blue"
-  TSTagDelimiter: "blue"
+  TSTagDelimiter: "menu_grey"
   TSQueryLinterError: "warning_orange"
   # -- END Treesitter --
 
@@ -376,6 +376,8 @@ highlights:
   DashboardFooter: "light_blue"
 # DashboardShortCut:
 
+  WhichKeyFloat: "bg"
+
   # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
   # -- Other junk you can define --
   # Debug
@@ -395,3 +397,17 @@ highlights:
   # MoreMsg: "green - br"
   # Question: "cyan - br"
   # Directory: "blue - b"
+
+  # VimWiki
+  VimwikiHeader1: "orange - b"
+  VimwikiHeader2: "green - b"
+  VimwikiHeader3: "blue - b"
+  VimwikiHeader4: "cyan - b"
+  VimwikiHeader5: "dark_yellow - b"
+  VimwikiHeader6: "purple - b"
+  VimwikiLink: "vivid_blue"
+  VimwikiHeaderChar: "line_grey"
+  VimwikiHR: "yellow"
+  VimwikiList: "orange"
+  VimwikiTag: "orange"
+  VimwikiMarkers: "line_grey"

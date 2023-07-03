@@ -58,7 +58,7 @@ hi WildMenu guifg=#00ff00 ctermfg=46 guibg=#0000ff ctermbg=21 gui=NONE cterm=NON
 hi IncSearch guifg=#cccccc ctermfg=252 guibg=#505000 ctermbg=58 gui=underline cterm=underline
 hi Search guifg=#cccccc ctermfg=252 guibg=#505000 ctermbg=58 gui=NONE cterm=NONE
 hi TabLine guifg=#505050 ctermfg=239 guibg=#77aaff ctermbg=111 gui=NONE cterm=NONE
-hi TabLineFill guifg=#505050 ctermfg=239 guibg=#505050 ctermbg=239 gui=NONE cterm=NONE
+hi TabLineFill guifg=#303030 ctermfg=236 guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
 hi TabLineSel guifg=#505050 ctermfg=239 guibg=#77aaff ctermbg=111 gui=NONE cterm=NONE
 hi Title guifg=#cccccc ctermfg=252 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi VertSplit guifg=#505050 ctermfg=239 guibg=#303030 ctermbg=236 gui=NONE cterm=NONE
